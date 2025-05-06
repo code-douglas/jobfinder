@@ -2,16 +2,23 @@
   "name": "jobfinder",
   "version": "0.0.1",
   "description": "JobFinder - Plataforma para busca de empregos em TI",
-  "main": "app.js",
+  "main": "app.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./src/app.mjs localhost 3000"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/code-douglas/jobfinder.git"
   },
+  "keywords": [
+    "dev",
+    "jobs",
+    "jobfind",
+    "oportunity"
+  ],
   "author": "code-douglas",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/code-douglas/jobfinder/issues"
   },
@@ -19,6 +26,14 @@
   "devDependencies": {
     "@eslint/js": "^9.26.0",
     "eslint": "^9.26.0",
-    "globals": "^16.0.0"
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.1",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
   }
 }
