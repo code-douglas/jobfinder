@@ -2,7 +2,13 @@ import Job from '../Models/Job.mjs';
 
 export default class JobController {
   static async createAJob(req, res) {
-    const { title, description, salary, company, email, new_job } = req.body;
+    const {
+      title,
+      description,
+      salary,
+      company,
+      email,
+      new_job } = req.body;
 
     try {
       await Job.create({
