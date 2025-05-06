@@ -1,0 +1,19 @@
+{
+  "name": "jobfinder",
+  "version": "0.0.1",
+  "description": "JobFinder - Plataforma para busca de empregos em TI",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/code-douglas/jobfinder.git"
+  },
+  "author": "code-douglas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-douglas/jobfinder/issues"
+  },
+  "homepage": "https://github.com/code-douglas/jobfinder#readme"
+}
