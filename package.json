@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/code-douglas/jobfinder/issues"
   },
-  "homepage": "https://github.com/code-douglas/jobfinder#readme"
+  "homepage": "https://github.com/code-douglas/jobfinder#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "eslint": "^9.26.0",
+    "globals": "^16.0.0"
+  }
 }
