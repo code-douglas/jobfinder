@@ -1,9 +1,15 @@
 import './config/configEnv.mjs';
 import sequelize from './db/connection.mjs';
 import express from 'express';
+import jobRoutes from './routes/JobRouter.mjs';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+app.use('/jobs', jobRoutes);
 
 const startApp = async () => {
   try {
